@@ -91,13 +91,10 @@ p{
   color: black;
 }
 .latest{
-  margin-bottom: 20px;
-  text-align: center;
-}
-.latest-title{
   font-family: serif;
   font-weight: bold;
   font-size: 50px;
+  margin-bottom: 20px;
   color: red;
 }
 .thumbnail{
