@@ -91,7 +91,7 @@ p{
   color: black;
 }
 .latest{
-  font-family: serif;
+  font-family: Georgia,Arial, Helvetica;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 20px;
@@ -107,6 +107,9 @@ p{
   font-weight: bold;
   line-height: 20px;
   margin-bottom: 10px;
+}
+.news-content{
+  margin-bottom: 15px;
 }
 .profile-picture{
   border-radius: 50px;
@@ -129,14 +132,17 @@ p{
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr ;
   column-gap: 16px;
-  row-gap: 40px;
+  row-gap: 25px;
 }
 .news-info-grid{
   display: grid;
   grid-template-columns: 50px 1fr;
 }
+.news-preview{
+  transition: opacity 0.2s;
+}
 .news-preview:hover{
-  opacity: 0.85;
+  opacity: 0.75;
 }
 @media (max-width: 425px) {
   .news-grid{
@@ -156,7 +162,8 @@ p{
   padding-right: 4px;
   padding-top: 4px;
   padding-bottom: 4px;
-  border-radius: 2px;
+  border-radius: 1px;
+  display: block;
   background-color: black;
   color: white;
   position: absolute;
@@ -171,10 +178,27 @@ p{
   padding-right: 4px;
   padding-top: 4px;
   padding-bottom: 4px;
-  border-radius: 2px;
+  border-radius: 1px;
+  display: block;
   background-color: black;
   color: white;
   position: absolute;
   bottom: 8px;
   left: 45px;
+}
+.news-subject2{
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 1px;
+  display: block;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 104px;
 }
