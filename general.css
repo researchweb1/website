@@ -228,13 +228,6 @@ p{
   z-index: 100;
   font-size: 40px;
   }
-  #myBtn:active{
-    bottom: -5px;
-    color: red;  
-    background: none;
-    border-style: none;
-
-  }
 }
 @media (min-width: 1000px){
   #myBtn{
