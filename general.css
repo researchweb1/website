@@ -220,6 +220,8 @@ p{
 #myBtn:active{
   bottom: 30px;
   color: red;
+  background: none;
+  border-style: none;
 }
 @media (max-width: 425px) {
   #myBtn{
