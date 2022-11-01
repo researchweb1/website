@@ -84,7 +84,7 @@ html{
   text-decoration: none;
 }
 body{
-  height: 5000px;
+  height: 6000px;
 }
 p{
   font-family: Roboto,Arial;
@@ -92,12 +92,16 @@ p{
   margin-bottom: 0;
   color: black;
 }
-.latest{
+.web-title{
   font-family: Georgia,Arial, Helvetica;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 20px;
   color: red;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
 }
 .thumbnail{
   width: 100%;
