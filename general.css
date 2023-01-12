@@ -505,9 +505,12 @@ p{
   }
   .dogs{
     margin-bottom: 50px;
+    margin-right: -1px;
   }
   .dogs1{
     margin-bottom: 50px;
+    margin-right: -1px;
+
   }
   .dogs2{
     margin-bottom: 50px;
@@ -517,6 +520,8 @@ p{
   }
   .dogs4{
     margin-bottom: 50px;
+    margin-right: -1px;
+
   }
   .dogs5{
     margin-bottom: 50px;
