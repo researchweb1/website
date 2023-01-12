@@ -105,6 +105,17 @@ p{
   font-style: italic;
   letter-spacing: -9px;
 }
+.web-title1{
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: bold;
+  font-size: 110px;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: -9px;
+}
 .thumbnail{
   width: 100%;
 }
@@ -165,6 +176,12 @@ p{
   .news-grid{
     grid-template-columns: 1fr 1.5fr 1fr ;
   }
+}
+@media (max-width: 425px) {
+  .web-title1{
+  font-size: 50px;
+  letter-spacing: -2px;
+  }  
 }
 .news-subject{
   font-family: Roboto,Arial;
