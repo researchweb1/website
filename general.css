@@ -4,28 +4,29 @@ html{
 }
 .page-title{
   text-align: center;
-  background-color: #0e9662;
+  background-color: #b82a2a;
   padding-bottom: 100px;
   padding-top: 10px;
+  border-radius: 2px;
 }
 .title-1{
   font-family: Roboto;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 80px;
   margin-top: 30px;
   margin-bottom: 0;
 }
 .title-2{
   font-family: Roboto;
   margin-top: 0;
-  color: rgb(201, 201, 201);
+  color: rgb(255, 255, 255);
   font-size: 15px;
   letter-spacing: 4px;
 }
 .topnav {
   margin-top: -1px;
   position: relative;
-  background-color: rgb(51, 170, 81);
+  background-color: rgb(90, 92, 91);
   overflow: hidden;
   float: none;
   text-align: center;
@@ -266,5 +267,291 @@ p{
   right: 20px;
   z-index: 100;
   font-size: 50px;
+  }
+}
+
+/*--CSS Style for ABOUT US --*/
+
+.mission-vision-grid{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+.mission-title{
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+}
+.mission{
+  text-align: center;
+  margin-right: 5px;
+}
+.vision-title{
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+}
+.vision{
+  text-align: center;
+  margin-left: 5px;
+}
+@media (max-width: 425px) {
+  .mission-vision-grid{
+    grid-template-columns: 1fr;
+  }
+  .vision{
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1000px){
+  .mission-vision-grid{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+/**--EXAMPLE ONLY--*/
+.picture-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+.dogs{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px red;
+  padding-bottom: 12px;
+  cursor: pointer;
+  margin-right: 16px;
+  justify-self: center;
+}
+.dogs:hover{
+  opacity: 0.91;
+}
+.doggo{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.profile-name{
+  font-family: Arial;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+.profile-friend{
+  font-family: Arial;
+  color: gray;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.profile-email{
+  font-family: Arial;
+  color: gray;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  display: block;
+}
+.add-friend{
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(49, 118, 245);
+  border-style: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-bottom: 0;
+}
+.dogs1{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px blue;
+  padding-bottom: 12px;
+  cursor: pointer;
+  margin-right: 16px;
+  justify-self: center;
+
+}
+.dogs1:hover{
+  opacity: 0.91;
+}
+.doggo1{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.dogs2{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px green;
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+
+}
+.dogs2:hover{
+  opacity: 0.91;
+}
+.doggo2{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.dogs3{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px rgb(26, 71, 112);
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+
+}
+.dogs3:hover{
+  opacity: 0.91;
+}
+.doggo3{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.dogs4{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px blue;
+  padding-bottom: 12px;
+  cursor: pointer;
+  margin-right: 16px;
+  justify-self: center;
+}
+.dogs4:hover{
+  opacity: 0.91;
+}
+.doggo4{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.dogs5{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px green;
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+}
+.dogs5:hover{
+  opacity: 0.91;
+}
+.doggo5{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.dogs6{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px rgb(26, 71, 112);
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+
+}
+.dogs6:hover{
+  opacity: 0.91;
+}
+.doggo6{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+.dogs7{
+  width: 200px;
+  box-shadow: 0px -1px 6px 1px rgb(26, 71, 112);
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+
+}
+.dogs7:hover{
+  opacity: 0.91;
+}
+.doggo7{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+}
+@media (max-width: 425px) {
+  .picture-grid{
+    grid-template-columns: 1fr;
+  }
+  .dogs{
+    margin-bottom: 50px;
+  }
+  .dogs1{
+    margin-bottom: 50px;
+  }
+  .dogs2{
+    margin-bottom: 50px;
+  }
+  .dogs3{
+    margin-bottom: 50px;
+  }
+  .dogs4{
+    margin-bottom: 50px;
+  }
+  .dogs5{
+    margin-bottom: 50px;
+  }
+  .dogs6{
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1000px){
+  .picture-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .dogs{
+    margin-top: 50px;
+  }
+  .dogs1{
+    margin-top: 50px;
+  }
+  .dogs2{
+    margin-top: 50px;
+  }
+  .dogs3{
+    margin-top: 50px;
+  }
+  .dogs4{
+    margin-top: 50px;
+  }
+  .dogs5{
+    margin-top: 50px;
+    margin-left: -15px;
+  }
+  .dogs6{
+    margin-top: 50px;
+  }
+  .dogs7{
+    margin-top: 50px;
   }
 }
