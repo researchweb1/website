@@ -51,6 +51,28 @@
     <p class="web-title1">DEVELOPERS</p>
     </div>
 
+    <!-- GO TO TOP BUTTON -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="fa-solid fa-circle-arrow-up"></i>
+</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+  function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
     <!--EXAMPLE ONLY-->
     <div class="picture-grid">
@@ -182,6 +204,8 @@
 <p class="website-contact">Contact Us: 0956-763-7895</p>
 <p class="website-email">Email Us: <span style="text-decoration: underline; cursor: pointer;">newhorizon@gmail.com</span></p>
 </div>
+
+
 
 
 

@@ -86,9 +86,6 @@ html{
 *{
   text-decoration: none;
 }
-body{
-  height: 6000px;
-}
 p{
   font-family: Roboto,Arial;
   margin-top: 0;
@@ -320,7 +317,6 @@ p{
   }
 }
 
-/**--EXAMPLE ONLY--*/
 .picture-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -673,4 +669,7 @@ p{
     font-size: 20px;
     padding-left: 20px;
   }
+}
+body{
+  height: 3000px;
 }
