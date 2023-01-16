@@ -328,7 +328,6 @@ p{
 }
 .dogs{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px red;
   padding-bottom: 12px;
   cursor: pointer;
   margin-right: 16px;
@@ -342,47 +341,35 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
 }
 .profile-name{
   font-family: Arial;
   font-weight: bold;
-  padding-left: 10px;
   margin-bottom: 6px;
   margin-top: 6px;
+  text-align: center;
 }
-.profile-friend{
+.profile-number{
   font-family: Arial;
   color: gray;
-  font-size: 12px;
-  padding-left: 10px;
+  font-size: 15px;
   margin-bottom: 10px;
   margin-top: 0;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  text-align: center;
 }
 .profile-email{
   font-family: Arial;
   color: gray;
-  font-size: 12px;
-  padding-left: 10px;
+  font-size: 15px;
   margin-bottom: 20px;
-  margin-top: 0;
   display: block;
-}
-.add-friend{
-  margin-left: 10px;
-  color: white;
-  background-color: rgb(49, 118, 245);
-  border-style: none;
-  width: 100px;
-  height: 35px;
-  border-radius: 4px;
-  cursor: pointer;
-  padding-bottom: 0;
+  text-align: center;
+
 }
 .dogs1{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px blue;
   padding-bottom: 12px;
   cursor: pointer;
   margin-right: 16px;
@@ -397,10 +384,11 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 .dogs2{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px green;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
@@ -414,10 +402,11 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 .dogs3{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px rgb(26, 71, 112);
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
@@ -431,10 +420,11 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 .dogs4{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px blue;
   padding-bottom: 12px;
   cursor: pointer;
   margin-right: 16px;
@@ -448,10 +438,11 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 .dogs5{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px green;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
@@ -464,10 +455,11 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 .dogs6{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px rgb(26, 71, 112);
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
@@ -481,10 +473,11 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 .dogs7{
   width: 200px;
-  box-shadow: 0px -1px 6px 1px rgb(26, 71, 112);
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
@@ -498,6 +491,60 @@ p{
   height: 200px;
   object-fit: cover;
   margin-bottom: 1px;
+  border-radius: 100px;
+
+}
+.dogs8{
+  width: 200px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+}
+.dogs8:hover{
+  opacity: 0.91;
+}
+.doggo8{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+  border-radius: 100px;
+
+}
+.dogs9{
+  width: 200px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+}
+.dogs9:hover{
+  opacity: 0.91;
+}
+.doggo9{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+  border-radius: 100px;
+
+}
+.dogs10{
+  width: 200px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  justify-self: center;
+
+}
+.dogs10:hover{
+  opacity: 0.91;
+}
+.doggo10{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+  border-radius: 100px;
+
 }
 @media (max-width: 425px) {
   .picture-grid{
@@ -506,6 +553,7 @@ p{
   .dogs{
     margin-bottom: 50px;
     margin-right: -1px;
+    margin-top: 70px;
   }
   .dogs1{
     margin-bottom: 50px;
@@ -527,6 +575,18 @@ p{
     margin-bottom: 50px;
   }
   .dogs6{
+    margin-bottom: 50px;
+  }
+  .dogs7{
+    margin-bottom: 50px;
+  }
+  .dogs8{
+    margin-bottom: 50px;
+  }
+  .dogs9{
+    margin-bottom: 50px;
+  }
+  .dogs10{
     margin-bottom: 50px;
   }
 }
@@ -558,5 +618,59 @@ p{
   }
   .dogs7{
     margin-top: 50px;
+  }
+}
+.picture2-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 425px) {
+  .picture2-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .dogs8{
+    margin-right: -120px;
+  }
+  .dogs10{
+    margin-left: -120px;
+  }
+  .picture2-grid{
+    margin-top: 50px;
+  }
+}
+.website-info{
+  background-color: #c6c7c7;
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+}
+.website-contact{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: Arial;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.website-email{
+  font-family: Arial;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+@media (max-width: 425px) {
+  .website-info{
+    width: 300px;
+    height: 115px;
+  }
+  .website-contact{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .website-email{
+    font-size: 20px;
+    padding-left: 20px;
   }
 }
