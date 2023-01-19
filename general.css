@@ -666,3 +666,60 @@ p{
     padding-left: 20px;
   }
 }
+
+/*-- CSS Style for TECHNOLOGY --*/
+
+#myBtn3{
+  display: none;
+  position: fixed;
+  border: none;
+  outline: none;
+  background: none;
+  border-style: none;
+  color: rgb(70, 1, 160);
+  background-color: #b82a2a;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: all .4s;
+}
+#myBtn3:active{
+  bottom: 30px;
+  color: red;
+  background: none;
+  border-style: none;
+}
+@media (max-width: 425px) {
+  #myBtn3{
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  font-size: 40px;
+  background: none;
+  border-style: none;
+  }
+}
+@media (min-width: 1000px){
+  #myBtn3{
+  bottom: 25px;
+  right: 20px;
+  z-index: 100;
+  font-size: 50px;
+  }
+}
+.tech-news-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr ;
+  column-gap: 16px;
+  row-gap: 25px;
+}
+@media (max-width: 425px) {
+  .tech-news-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .tech-news-grid{
+    grid-template-columns: 2fr 1fr 1fr ;
+  }
+}
