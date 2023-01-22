@@ -761,3 +761,41 @@ p{
     grid-template-columns: 2fr 2fr 1fr ;
   }
 }
+
+/*-- CSS Style for CLIMATE NEWS --*/
+
+.climate-news-grid{
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr ;
+  column-gap: 16px;
+  row-gap: 25px;
+}
+@media (max-width: 425px) {
+  .climate-news-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .climate-news-grid{
+    grid-template-columns: 2fr 2fr 1fr ;
+  }
+}
+
+/*-- CSS Style for COVID NEWS --*/
+
+.covid-news-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr ;
+  column-gap: 16px;
+  row-gap: 25px;
+}
+@media (max-width: 425px) {
+  .covid-news-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .covid-news-grid{
+    grid-template-columns: 1fr 2fr 2fr ;
+  }
+}
