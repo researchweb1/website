@@ -27,10 +27,9 @@ body{
 }
 .title-3{
   font-family: Arial;
-  margin-top: 0;
   color: rgb(255, 255, 255);
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 22px;
   padding-bottom: 7px;
   font-weight: bold;
 }
@@ -52,7 +51,6 @@ body{
 
 .topnav {
   margin-top: -1px;
-  position: relative;
   background-color: #fec98f;
   overflow: hidden;
   float: none;
@@ -60,8 +58,19 @@ body{
   display: block;
   border-radius: 2px;
   margin-bottom: 0px;
+  z-index: 100;
 }
-
+@media (max-width: 425px) {
+  .topnav{
+    position: relative;
+  }
+}
+@media (min-width: 1000px){
+  .topnav{
+    position: sticky;
+    top: 0px;
+  }
+}
 .topnav a {
   float: none;
   display: inline-block;
@@ -131,16 +140,7 @@ p{
   text-align: center;
   letter-spacing: -9px;
 }
-.web-title1{
-  font-family: Roboto, Arial, Helvetica;
-  font-weight: bold;
-  font-size: 110px;
-  color: red;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  letter-spacing: -9px;
-}
+
 .thumbnail{
   width: 100%;
 }
@@ -201,12 +201,6 @@ p{
   .news-grid{
     grid-template-columns: 1fr 1.5fr 1fr ;
   }
-}
-@media (max-width: 425px) {
-  .web-title1{
-  font-size: 50px;
-  letter-spacing: -2px;
-  }  
 }
 .news-subject{
   font-family: Roboto,Arial;
@@ -341,7 +335,23 @@ p{
     grid-template-columns: 1fr 1fr ;
   }
 }
-
+.web-title1{
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: bold;
+  font-size: 110px;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -9px;
+  margin-top: 40px;
+}
+@media (max-width: 425px) {
+  .web-title1{
+  font-size: 50px;
+  letter-spacing: -2px;
+  }  
+}
 .picture-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
