@@ -357,17 +357,17 @@ p{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 50px;
 }
-.dogs{
+.developer1{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   margin-right: 16px;
   justify-self: center;
 }
-.dogs:hover{
+.developer1:hover{
   opacity: 0.91;
 }
-.doggo{
+.agustin{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -399,7 +399,7 @@ p{
   text-align: center;
 
 }
-.dogs1{
+.developer2{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
@@ -407,10 +407,10 @@ p{
   justify-self: center;
 
 }
-.dogs1:hover{
+.developer2:hover{
   opacity: 0.91;
 }
-.doggo1{
+.ambos{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -418,17 +418,17 @@ p{
   border-radius: 100px;
 
 }
-.dogs2{
+.developer3{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 
 }
-.dogs2:hover{
+.developer3:hover{
   opacity: 0.91;
 }
-.doggo2{
+.bautista{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -436,17 +436,17 @@ p{
   border-radius: 100px;
 
 }
-.dogs3{
+.developer4{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 
 }
-.dogs3:hover{
+.developer4:hover{
   opacity: 0.91;
 }
-.doggo3{
+.tan{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -454,17 +454,17 @@ p{
   border-radius: 100px;
 
 }
-.dogs4{
+.developer5{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   margin-right: 16px;
   justify-self: center;
 }
-.dogs4:hover{
+.developer5:hover{
   opacity: 0.91;
 }
-.doggo4{
+.sol{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -472,16 +472,16 @@ p{
   border-radius: 100px;
 
 }
-.dogs5{
+.developer6{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 }
-.dogs5:hover{
+.developer6:hover{
   opacity: 0.91;
 }
-.doggo5{
+.villocino{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -489,17 +489,17 @@ p{
   border-radius: 100px;
 
 }
-.dogs6{
+.developer7{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 
 }
-.dogs6:hover{
+.developer7:hover{
   opacity: 0.91;
 }
-.doggo6{
+.arquillo{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -507,17 +507,17 @@ p{
   border-radius: 100px;
 
 }
-.dogs7{
+.developer8{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 
 }
-.dogs7:hover{
+.developer8:hover{
   opacity: 0.91;
 }
-.doggo7{
+.baje{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -525,16 +525,16 @@ p{
   border-radius: 100px;
 
 }
-.dogs8{
+.developer9{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 }
-.dogs8:hover{
+.developer9:hover{
   opacity: 0.91;
 }
-.doggo8{
+.flores{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -542,16 +542,16 @@ p{
   border-radius: 100px;
 
 }
-.dogs9{
+.developer10{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 }
-.dogs9:hover{
+.developer10:hover{
   opacity: 0.91;
 }
-.doggo9{
+.fuentes{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -559,17 +559,17 @@ p{
   border-radius: 100px;
 
 }
-.dogs10{
+.developer11{
   width: 200px;
   padding-bottom: 12px;
   cursor: pointer;
   justify-self: center;
 
 }
-.dogs10:hover{
+.developer11:hover{
   opacity: 0.91;
 }
-.doggo10{
+.concepcion{
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -581,43 +581,43 @@ p{
   .picture-grid{
     grid-template-columns: 1fr;
   }
-  .dogs{
+  .developer1{
     margin-bottom: 50px;
     margin-right: -1px;
     margin-top: 70px;
   }
-  .dogs1{
+  .developer2{
     margin-bottom: 50px;
     margin-right: -1px;
 
   }
-  .dogs2{
+  .developer3{
     margin-bottom: 50px;
   }
-  .dogs3{
+  .developer4{
     margin-bottom: 50px;
   }
-  .dogs4{
+  .developer5{
     margin-bottom: 50px;
     margin-right: -1px;
 
   }
-  .dogs5{
+  .developer6{
     margin-bottom: 50px;
   }
-  .dogs6{
+  .developer7{
     margin-bottom: 50px;
   }
-  .dogs7{
+  .developer8{
     margin-bottom: 50px;
   }
-  .dogs8{
+  .developer9{
     margin-bottom: 50px;
   }
-  .dogs9{
+  .developer10{
     margin-bottom: 50px;
   }
-  .dogs10{
+  .developer11{
     margin-bottom: 50px;
   }
 }
@@ -625,29 +625,29 @@ p{
   .picture-grid{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .dogs{
+  .developer1{
     margin-top: 50px;
   }
-  .dogs1{
+  .developer2{
     margin-top: 50px;
   }
-  .dogs2{
+  .developer3{
     margin-top: 50px;
   }
-  .dogs3{
+  .developer4{
     margin-top: 50px;
   }
-  .dogs4{
+  .developer5{
     margin-top: 50px;
   }
-  .dogs5{
+  .developer6{
     margin-top: 50px;
     margin-left: -15px;
   }
-  .dogs6{
+  .developer7{
     margin-top: 50px;
   }
-  .dogs7{
+  .developer8{
     margin-top: 50px;
   }
 }
@@ -661,10 +661,10 @@ p{
   }
 }
 @media (min-width: 1000px){
-  .dogs8{
+  .developer9{
     margin-right: -120px;
   }
-  .dogs10{
+  .developer11{
     margin-left: -120px;
   }
   .picture2-grid{
